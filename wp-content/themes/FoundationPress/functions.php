@@ -1,7 +1,7 @@
 <?php
 /**
- * Author: Ole Fredrik Lie
- * URL: http://olefredrik.com
+ * Author: Ludivine BEUCHOT
+ * URL: http://ludivine-beuchot.fr
  *
  * FoundationPress functions and definitions
  *
