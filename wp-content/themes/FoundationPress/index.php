@@ -104,6 +104,8 @@ get_header(); ?>
         <b>PASS AUCCAM</b>: 24€
         <p>Individuel et valable pour 6 concerts au choix sur l’ensemble du festival proposé aux adhérents de l’AUCCAM, associations et MJC de Vandœuvre, +60 ans, familles nombreuses, demandeurs d’emploi, étudiants non salariés, adhérents MGEL et MGEN, étudiants venant à deux, C.E. partenaires du CCAM, groupes à partir de 5 personnes.</p>
       </section>
+
+      <button type="button" name="button">RÉSERVER</button>
     </div>
     <div class="small-12 large-5 columns colonne-droite">
       <h3>INDIVIDUELLE</h3>
@@ -135,6 +137,8 @@ get_header(); ?>
       <section class="indiv6">
         <b>TARIF TGP Frouard</b>: 11€
       </section>
+
+      <button type="button" name="button">RÉSERVER</button>
       </div>
     </div>
   </div>
@@ -163,6 +167,10 @@ get_header(); ?>
   <div class="small-12 columns">
       <label for="message">Message</label>
       <textarea id="message"></textarea>
+  </div>
+
+  <div class="large-4 large-offset-10 columns">
+    <button id="sending" type="submit">ENVOYER</button>
   </div>
 </form>
 </section>
