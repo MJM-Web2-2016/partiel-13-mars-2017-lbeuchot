@@ -56,24 +56,27 @@
   }
 
   .menu a {
-    height: 45px;
-    line-height: 45px;
-    color: #e6e6e6;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-weight: bold;
+    height: 70px;
+    color: black;
     font-size: 0.8rem;
-    line-height: 1;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin-top: 1rem;
 
-    &:hover:not(.button) {
-      background-color: #42525D;
+    a:hover {
+      color: white;
+    }
+
+    .menu > li > a img {
+      width: 80%;
+      height: auto;
     }
   }
 
   .menu .active > a { background-color: lighten($outer-space, 10%); }
 
-  .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+  .menu>li:not(.menu-text)>a { padding: 1rem;}
 
   .dropdown.menu .submenu { border: 0; }
   .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }

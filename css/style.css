@@ -1,0 +1,18 @@
+/* STYLE DU MENU */
+
+ul#menu-principal {
+  width: 100%;
+  height: 100px;
+  background-color: #fdff65;
+}
+
+ul li {
+  display: inline;
+}
+
+h2 {
+  color: #fdff65;
+  opacity: 0.25;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,163 @@
+h2 {
+  color: #fdff65;
+  opacity: 0.25;
+  font-size: 70px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Footer */
+
+#footer {
+  display: inline;
+  background-color: #fdff65;
+  width: 100%;
+  height: 70px;
+}
+
+.programme {
+  margin-top: 30px;
+}
+
+.p-after {
+  position: relative;
+  color: black;
+  margin-top: -65px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.prog-contour {
+  border: 3px solid black;
+  text-align: center;
+  width: 280px;
+  height: 280px;
+  padding-top: 40px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.prog-contour h3 {
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.prog-contour p {
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.prog-contour .p-second-child {
+  font-weight: 200;
+  font-size: 18px;
+  color: black;
+}
+
+.prog-contour button {
+  background-color: #fdff65;
+  width: 150px;
+  height: 50px;
+}
+
+.prog-contour button img {
+  margin-right: 15px;
+}
+
+/* INFORMATIONS */
+
+#informations {
+  margin-top: 40px;
+  padding: 60px 40px 40px 1px;
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
+}
+
+/* LABEL */
+
+#label {
+  margin-top: 40px;
+  padding: 60px 40px 40px 1px;
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
+}
+
+#label p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* BILLETERIE */
+
+.colonne-gauche, .colonne-droite {
+  margin-top: 40px;
+  border: 3px solid black;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pass1 p, .pass2 p, .pass3 p, .pass4 p {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+.pass1 b, .pass2 b, .pass3 b, .pass4 b {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.colonne-gauche h3 {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.indiv1 p, .indiv2 p, .indiv3 p, .indiv4 p, .indiv5 p, .indiv6 p {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+.indiv1 b, .indiv2 b, .indiv3 b, .indiv4 b, .indiv5 b, .indiv6 b{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.colonne-droite h3 {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+
+/* FOOTER */
+
+footer {
+  background-color: #fdff65;
+}
+
+footer > div > img,
+footer > div >p {
+    display: inline-block;
+}
+
+.first-img {
+  margin-right: 10px;
+}
+
+.first-p {
+  margin-right: 90px;
+}
